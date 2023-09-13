@@ -1,44 +1,53 @@
 @charset "UTF-8";
+
+@font-face {
+    font-family: Cordel;
+    src: url();
+}
+
+
 *{
     margin: 0%;
 }
 body{
-
+    min-width: 300px;
 }
 header{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 50px;
+    width: 100%;   
 }
-header>h1{
-    
-    padding: 5px;
+header p{
+    padding: 15px;
 }
-header>p{
-    
-}
+
 header a{
     color: white;
     text-decoration: none;
 }
 section{
-    background-color: white;
-    padding: 10px;
-    padding-left: 30px;
-    background-image: url('');
+    width: 100%;
+    line-height: 1.5em;
 }
+section>p{
+    padding:30px;
+}
+
 section .texto{
     width: 200px;
     padding: 2px 10px 2px 10px;
-    text-align: justify;
-    background-color: rgba(0, 0, 0, 0.836);
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background-color: rgba(39, 37, 37, 0.479);
     color: white;
+
 }
 footer{
+    font-size: 1em;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
-    width: 100%;
+     width: 100%;
 }
